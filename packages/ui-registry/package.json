@@ -35,7 +35,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "check-types": "tsc --noEmit",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
     "verify-exports": "npx tsx scripts/verify-exports.ts"
   },
   "peerDependencies": {
